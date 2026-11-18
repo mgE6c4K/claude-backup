@@ -1,0 +1,19 @@
+# build
+/claude-backup
+*.o
+*.dSYM/
+
+# your Claude data: backups, snapshots, anything extracted while testing
+ClaudeBackups/
+*.zip
+manifest.json
+claude-*-snapshot-*/
+.claude/
+.claude.json
+claude-code-sessions/
+*.jsonl
+
+# os / editor
+.DS_Store
+.vscode/
+.idea/
